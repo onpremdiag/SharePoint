@@ -14,13 +14,13 @@ Detailed instructions on how to install/upgrade the latest version of OPD can be
 
 # Support
 If you encounter an issue with OPD for SharePoint, please select the appropriate link below:
-- <a href="mailto:opd-support@microsoft.com?subject=OPD General Questions">General questions</a>
-- <a href="mailto:opd-support@microsoft.com?subject=OPD encountered an exception/bug">Bug/Exception</a>
+- <a href="mailto:opd-support@microsoft.com?subject=[OPD QUESTION] General Questions">General questions</a>
+- <a href="mailto:opd-support@microsoft.com?subject=[OPD BUG] Encountered an exception/bug during use">Bug/Exception</a>
   - Please include the following in your bug/exception report
     - Version of OPD for SharePoint - this can be found in the title bar of the console window
     - Screen shot of error/exception
     - Steps to reproduce the error/exception
-- <a href="mailto:opd-support@microsoft.com?subject=OPD New Scenario">New scenario/feature</a>
+- <a href="mailto:opd-support@microsoft.com?subject=[OPD REQUEST]New Scenario">New scenario/feature</a>
   - Please include the following in scenario/feature request
     - How does the issue present itself to an end user (*scenario*)
     - How do we determine that the specific issue exists (*rules*)
