@@ -16,7 +16,7 @@ Detailed instructions on how to install/upgrade the latest version of OPD can be
 Detailed instruction on how to operate OPD can be found [here](https://github.com/onpremdiag/SharePoint/blob/master/docs/HowToUse.md).
 
 # Telemetry Information
-To understand exactly what information is recorded and *potentially uploaded to Microsoft*, click [here](https://github.com/onpremdiag/SharePoint/blobl/master/docs/TelemetryData.md).
+To understand exactly what information is recorded and *potentially uploaded to Microsoft*, click [here](https://github.com/onpremdiag/SharePoint/blob/master/docs/TelemetryData.md).
 
 # Support
 If you encounter an issue with OPD for SharePoint, please select the appropriate link below:
