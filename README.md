@@ -4,7 +4,7 @@ diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments
 
 ![SharePoint 2016](https://img.shields.io/static/v1?label=SharePoint&message=2016&color=%231777D6&style=plastic) ![SharePoint 2019](https://img.shields.io/static/v1?label=SharePoint&message=2019&color=%231777D6&style=plastic)
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic) 
+<a href="https://github.com/onpremdiag/SharePoint/releases/download/2.1.1908.27002/2.1.1908.27002.zip"><img src="https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic" /></a> 
 ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1908.27002/total?style=plastic) 
 ![GitHub Releases (by Release)](https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.0.1908.27002/total?style=plastic)
 
