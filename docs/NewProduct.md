@@ -1,7 +1,7 @@
 # How to use Plaster to generate your project stub
 
 ## Install Plaster
-Plaster is completely open source and hosted on the PowerShell Team’s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
+Plaster is completely open source and hosted on the PowerShell Teamâ€™s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
 recent version from the PowerShell gallery using the below command.
 
 ```
@@ -106,7 +106,8 @@ something similar to the following:
 ````
 
 ### Common files
-<img src="./media/ProjStub-commonFiles.png" alt="Product common files" />
+
+<img src="./media/ProjStub-commonfiles.png" alt="Product common files" />
 
 There are two (2) files that will should be included with each project. They are *Globals.ps1* and *[ProductName].ps1*.
 
@@ -188,7 +189,8 @@ Set-StrictMode -Version Latest
 ````
 
 ### Locale specific files
-<img src="./media/ProjStub-localeFiles.png" alt="Locale specific files" />
+
+<img src='./media/ProjStub-localefiles.png' alt='Locale specific files' />
 
 Plaster will generate the following [required] resx files for you to modify. By default,
 English is the only language that is stubbed. If additional languages are required, simply 
@@ -206,7 +208,8 @@ they would be named [FileName].fr-FR.resx
 |ScenarioDescription|The description of what the scenario is looking for|
 
 ### Test file stubs
-<img src="./media/ProjStub-testFiles.png" alt="Locale specific files" />
+
+<img src="./media/ProjStub-testfiles.png" alt="Test file stubs" />
 
 Plaster will generate sample test scripts for analyzers, insights, rules, and scenarios. Each of these
 stub files will validate that the required entries are in the appropriate resource files. You can use these
