@@ -15,7 +15,7 @@ Install-Package -Name Plaster -Source PSGallery -Verbose -Force -ForceBootstrap
 This is a collection of utilities and project definitions that will simplify
 your PowerShell development. Click on the image below to learn more.
 
-<a href="https://poshtools.com"><img src="./media/Poshtools.png" /> </a>
+<a href="https://poshtools.com"><img src="./media/PoshTools.png" alt="PowerShell Tools for Visual Studio" /></a>
 
 ## Getting started...
 In our source tree, you will see a plastertemplates folder
