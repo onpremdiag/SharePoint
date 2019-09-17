@@ -11,15 +11,15 @@ diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments
   </tr>
   <tr>
     <td> Signed Builds </td>
-    <td> <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1908.27002/total?style=plastic" /> </td>
+    <td> <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1908.27002/total?style=plastic" /> <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1909.16001/total?style=plastic" /></td>
   </tr>
   <tr>
     <td> Unsigned Builds </td>
-    <td> <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.0.1908.27002/total?style=plastic" /> </td>
+    <td> <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.0.1908.27002/total?style=plastic" />  <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.0.1909.16001/total?style=plastic" /></td>
   </tr>
   <tr>
     <td> Download lastest release </td>
-    <td> <a href="https://github.com/onpremdiag/SharePoint/releases/download/2.1.1908.27002/2.1.1908.27002.zip"><img src="https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic" /></a> </td>
+    <td> <a href="https://github.com/onpremdiag/SharePoint/releases/download/2.1.1909.16001/2.1.1909.16001.zip"><img src="https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic" /></a> </td>
   </tr>
 </table>
 
