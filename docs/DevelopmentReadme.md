@@ -1,6 +1,8 @@
 # How to use Plaster to generate your code
 
-## Install Plaster
+## Before you begin...
+
+## > Install Plaster
 Plaster is completely open source and hosted on the PowerShell Team’s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
 recent version from the PowerShell gallery using the below command.
 
@@ -8,6 +10,15 @@ recent version from the PowerShell gallery using the below command.
 Install-Package -Name Plaster -Source PSGallery -Verbose -Force -ForceBootstrap
 ````
 
+## > Install PowerShell tools for Visual Studio
+
+This is a collection of utilities and project definitions that will simplify
+your PowerShell development. Click on the image below to learn more.
+
+<a href="https://poshtools.com"><img src="./media/Poshtools.png" /> </a>
+
+
+## Getting started...
 In our source tree, you will see a plastertemplates folder
 
 <img src="./media/PlasterTemplatesFolder.png" alt="Plaster template folder hiearchy" />
