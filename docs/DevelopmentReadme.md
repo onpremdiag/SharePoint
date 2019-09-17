@@ -3,7 +3,7 @@
 ## Before you begin...
 
 ## > Install Plaster
-Plaster is completely open source and hosted on the PowerShell Team’s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
+Plaster is completely open source and hosted on the PowerShell Teamâ€™s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
 recent version from the PowerShell gallery using the below command.
 
 ```
@@ -16,7 +16,6 @@ This is a collection of utilities and project definitions that will simplify
 your PowerShell development. Click on the image below to learn more.
 
 <a href="https://poshtools.com"><img src="./media/Poshtools.png" /> </a>
-
 
 ## Getting started...
 In our source tree, you will see a plastertemplates folder
