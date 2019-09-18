@@ -39,6 +39,13 @@ Detailed instruction on how to operate OPD can be found [here](https://github.co
 # Telemetry Information
 To understand exactly what information is recorded and *potentially uploaded to Microsoft*, click [here](https://github.com/onpremdiag/SharePoint/blob/master/docs/TelemetryData.md).
 
+# Development Instructions
+Detail instruction on how to develop diagnostics leveraging the OPD framework cane be
+found here:
+
+- [Creating a new project hierarchy](https://github.com/onpremdiag/SharePoint/blob/master/docs/NewProduct.md).
+- [Creating your first insight/rule/analyzer/scenario](https://github.com/onpremdiag/SharePoint/blob/master/docs/DevelopmentReadme.md).
+
 # Support
 If you encounter an issue with OPD for SharePoint, please select the appropriate link below:
 - <a href="mailto:opd-support@microsoft.com?subject=[OPD QUESTION] General Questions">General questions</a>
