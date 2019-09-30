@@ -1,7 +1,7 @@
 # How to use Plaster to generate your project stub
 
 ## Install Plaster
-Plaster is completely open source and hosted on the PowerShell Teamâ€™s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
+Plaster is completely open source and hosted on the PowerShell Team’s [Github](https://github.com/PowerShell/Plaster). We can grab the most 
 recent version from the PowerShell gallery using the below command.
 
 ```
@@ -74,7 +74,6 @@ Destination path: C:\temp\
    Create MyNewProduct\Tests\insights\InsightResourcesDefinitions.tests.ps1
    Create MyNewProduct\Tests\rules\RuleResourcesDefinitions.tests.ps1
    Create MyNewProduct\Tests\scenarios\ScenarioResourcesDefinitions.tests.ps1
-
 ````
 
 You have just generated the minimal folder structure for your product. You will notice that during the creation
