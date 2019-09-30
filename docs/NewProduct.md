@@ -33,6 +33,7 @@ This will generate stub folder hierarchy for your new product
 ````
 PS> Invoke-plaster -TemplatePath .\plastertemplates\product\ -DestinationPath c:\temp\ -Name MyNewProduct -Description "Product description"
 
+  ____  _           _
  |  _ \| | __ _ ___| |_ ___ _ __
  | |_) | |/ _` / __| __/ _ \ '__|
  |  __/| | (_| \__ \ ||  __/ |
@@ -54,13 +55,13 @@ Destination path: C:\temp\
  Deploying common files
    Create MyNewProduct\common\Globals.ps1
    Create MyNewProduct\common\MyNewProduct.ps1
-   Create MyNewProduct\locale\AnalyzerDescriptions.en-US.rex
-   Create MyNewProduct\locale\AreaDescriptions.en-US.rex
-   Create MyNewProduct\locale\AreaTitles.en-US.rex
-   Create MyNewProduct\locale\InsightActions.en-US.rex
-   Create MyNewProduct\locale\InsightDescriptions.en-US.rex
-   Create MyNewProduct\locale\RuleDescriptions.en-US.rex
-   Create MyNewProduct\locale\ScenarioDescriptions.en-US.rex
+   Create MyNewProduct\locale\AnalyzerDescriptions.en-US.resx
+   Create MyNewProduct\locale\AreaDescriptions.en-US.resx
+   Create MyNewProduct\locale\AreaTitles.en-US.resx
+   Create MyNewProduct\locale\InsightActions.en-US.resx
+   Create MyNewProduct\locale\InsightDetections.en-US.resx
+   Create MyNewProduct\locale\RuleDescriptions.en-US.resx
+   Create MyNewProduct\locale\ScenarioDescriptions.en-US.resx
    Create MyNewProduct\config.json
  Creating Pester test folder structure
    Create MyNewProduct\Tests\
@@ -73,6 +74,7 @@ Destination path: C:\temp\
    Create MyNewProduct\Tests\insights\InsightResourcesDefinitions.tests.ps1
    Create MyNewProduct\Tests\rules\RuleResourcesDefinitions.tests.ps1
    Create MyNewProduct\Tests\scenarios\ScenarioResourcesDefinitions.tests.ps1
+
 ````
 
 You have just generated the minimal folder structure for your product. You will notice that during the creation
