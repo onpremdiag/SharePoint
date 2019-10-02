@@ -4,11 +4,9 @@ The On Premise Diagnostic (OPD) releases are located [here.](https://github.com/
 <img src="./media/releaserepo.png" alt="Releases" height="563" width="585"/>
 
 ## Which version should I download?
-> Which version do I download?
-You will notice that there are two (2) versions for each release
 
-	- 2.0.yymm.ddrrrr
-	- 2.1.yymm.ddrrrr
+Which version do I download?
+You will see multiple version of OPD available to you.
 
 The release/version number can be interpreted as follows:
 
@@ -21,12 +19,12 @@ The release/version number can be interpreted as follows:
 	- The final value, ddrrrr, indicates the day (dd) of the 
 	  build and the revision/build (rrr) on that day
 
-For the following: 2.1.1908.01002, we know the following:
+For the following: 2.1.1909.25002, we know the following:
 
 	- The major release is 2
 	- This is a code-signed release (1)
-	- It was built in the 8th month (August) of 2019 (19)
-	- It was built on the 1st (1) day of the month and this was the 
+	- It was built in the 9th month (September) of 2019 (19)
+	- It was built on the 25th (25) day of the month and this was the 
 	  second (2) build of that day
  
 ## Installation of OPD
