@@ -27,15 +27,18 @@ By this point, you should have unzipped and copied the OPD application into its 
 instance, and start OPD for SharePoint.
 
 1. Accept the EULA
+
 <img src="./media/AcceptEULA.png" alt="Accept the EULA" />
 
 2. Share analysis results with Microsoft?
+
 <img src="./media/ShareAnalysisResultsPrompt.png" alt="Share analysis results with Microsoft" />
 
 # Areas
 You will be taken to the Areas prompt. The various diagnostic scenarios are categorized by one or more areas that may be applicable.
 They have been grouped in this fashion to make it easier to locate a specific diagnostic scenario.
 You should see a screen similar to this:
+
 <img src="./media/SelectAnArea.png" alt="Select an area for your scenario" />
 
 Once you select an area, you will be presented with a list of diagnostic scenarios to choose from.
@@ -43,6 +46,7 @@ Once you select an area, you will be presented with a list of diagnostic scenari
 # Scenarios
 In our example, we have chosen the *Admin* area. The following is a list of the diagnostic scenarios that are part of
 the *Admin* area.
+
 <img src="./media/AdminScenarios.png" alt="Admin area scenarios" />
 
 Select a diagnostic scenario that *most closely matches* your issue. This will cause various analyzers/rules to be invoked
@@ -50,6 +54,7 @@ to check on the status of the issue. If a rule fails, you will be provided with 
 
 In our example we are faced with a situation where our active directory imports are failing for some reason. We select option 1
 to analyze the various pieces/parts that are required for successful active directory imports. Here are the results that we get:
+
 <img src="./media/ADImportsAreFailing.png" alt="Active directory imports are failing" />
 
 From this, we can see the required timer services are operational; however, the *Allow Service Jobs* property is not enabled on one 
