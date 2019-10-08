@@ -11,7 +11,8 @@ diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments
   </tr>
   <tr>
     <td>Downloads </td>
-    <td> 
+    <td>
+      <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/total?color=green&label=Total%20Downloads&style=plastic" /> <br>
       <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1910.07008/total?style=plastic" /><br>
       <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1909.25002/total?style=plastic" />
     </td>
