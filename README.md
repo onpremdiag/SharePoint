@@ -13,13 +13,10 @@ diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments
     <td>Downloads </td>
     <td>
       <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/total?color=green&label=Total%20Downloads&style=plastic" /> <br>
-      <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1910.08006/total?style=plastic" /><br>
-      <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1910.07008/total?style=plastic" /><br>
-      <img src="https://img.shields.io/github/downloads/onpremdiag/sharepoint/2.1.1909.25002/total?style=plastic" />
     </td>
   </tr>
   <tr>
-    <td> Download lastest release </td>
+    <td> Download latest release </td>
     <td> <a href="https://github.com/onpremdiag/SharePoint/releases/download/2.1.1910.08006/2.1.1910.08006.zip"><img src="https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic" /></a> </td>
   </tr>
 </table>
