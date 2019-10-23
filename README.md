@@ -51,7 +51,7 @@ If you encounter an issue with OPD for SharePoint, please select the appropriate
 - <a href="mailto:opd-support@microsoft.com?subject=[OPD QUESTION] General Questions">General questions</a>
 - <a href="mailto:opd-support@microsoft.com?subject=[OPD BUG] Encountered an exception/bug during use">Bug/Exception</a>
   - Please include the following in your bug/exception report
-    - Version of OPD for SharePoint - this can be found in the title bar of the console window
+    - Version of OPD for SharePoint - this can be found in the title bar of the console window. Or, you can run OPD with the -DiagnosticData option and paste the output (already in your clipboard) into the bug.
     - Screen shot of error/exception
     - Steps to reproduce the error/exception
 - <a href="mailto:opd-support@microsoft.com?subject=[OPD REQUEST] New Scenario">New scenario/feature</a>
