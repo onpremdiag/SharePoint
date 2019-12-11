@@ -19,7 +19,7 @@ diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments
   </tr>
   <tr>
     <td> Download latest release </td>
-    <td> <a href="https://github.com/onpremdiag/SharePoint/releases/download/2.1.1910.21001/2.1.1910.21001.zip"><img src="https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic" /></a> </td>
+    <td> <a href="https://github.com/onpremdiag/SharePoint/releases/download/2.1.1912.11002/2.1.1910.21001.zip"><img src="https://img.shields.io/github/v/release/onpremdiag/sharepoint?label=latest%20version&style=plastic" /></a> </td>
   </tr>
 </table>
 
