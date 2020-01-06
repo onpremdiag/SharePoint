@@ -154,7 +154,7 @@ This will generate the file, RDMyRule.ps1, in the destination folder.
 ################################################################################
 # MIT License
 #
-# Copyright (c) 2019 Microsoft and Contributors
+# Copyright (c) 2020 Microsoft and Contributors
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -201,18 +201,39 @@ class RDMyRule : RuleDefinition
     {
         $global:CurrentRule = $this.Id
 
-        # TODO
-        # Logic for checking the rule goes here
-        #
+        try
+        {
+            # TODO
+            # Logic for checking the rule goes here
+            #
 
-        # TODO
-        # If rule fails, set the following appropriately:
-        #   $this.Success = $false
-        #
-        #   If the insight requires formatting, do so here
-        #   $this.Insight.Detection = $this.Insight.Detection -f <parm1> ...
-        #   $this.Insight.Action    = $this.Insight.Action -f <parm1> ...
-        #
+            # TODO
+            # If rule fails, set the following appropriately:
+            #   $this.Success = $false
+            #
+            #   If the insight requires formatting, do so here
+            #   $this.Insight.Detection = $global:InsightDetections.GetString($this.Insight.Name) -f <parm1> ...
+            #   $this.Insight.Action    = $global:InsightActions.GetString($this.Insight.Name) -f <parm1> ...
+            #
+        }
+        catch [System.Management.Automation.PropertyNotFoundException]
+        {
+            $this.Insight.Detection = $global:InsightDetections.GetString('IDPropertyNotFoundException') -f $_.Exception.Message
+            $this.Insight.Action    = $global:InsightActions.GetString('IDPropertyNotFoundException')
+            $this.Success           = $false
+        }
+        catch [System.Management.Automation.CommandNotFoundException]
+        {
+            $this.Insight.Detection = $global:InsightDetections.GetString('IDCommandNotFoundException') -f $_.Exception.Message
+            $this.Insight.Action    = $global:InsightActions.GetString('IDCommandNotFoundException')
+            $this.Success           = $false
+        }
+        catch
+        {
+            $this.Insight.Detection = $global:InsightDetections.GetString('IDException')
+            $this.Insight.Action    = $global:InsightActions.GetString('IDException')
+            $this.Success           = $false
+        }
     }
 }
 ```
