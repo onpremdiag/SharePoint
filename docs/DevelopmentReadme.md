@@ -207,6 +207,13 @@ class RDMyRule : RuleDefinition
             # Logic for checking the rule goes here
             #
 
+            #
+            # TODO
+            #
+            # If we need parameters for the rule
+            # $parm1 = Get-ParameterDefinition -Object $this -ParameterName 'PD1'
+            # $parm2 = Get-ParameterDefinition -Object $this -ParameterName 'PD2'
+
             # TODO
             # If rule fails, set the following appropriately:
             #   $this.Success = $false
@@ -236,6 +243,7 @@ class RDMyRule : RuleDefinition
         }
     }
 }
+
 ```
 
 ## Create an analyzer
@@ -261,7 +269,7 @@ This will generate the file, ADMyAnalyzer.ps1, in the destination folder.
 ################################################################################
 # MIT License
 #
-# Copyright (c) 2019 Microsoft and Contributors
+# Copyright (c) 2020 Microsoft and Contributors
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -305,8 +313,8 @@ class ADMyAnalyzer : AnalyzerDefinition
         # Add the rules that this analyzer will use
         #
         # TODO
-        # $this.AddRuleDefinition([RD1]::new([ID1]::new()))
-        # $this.AddRuleDefinition([RD2]::new([ID2]::new()))
+        # Add-RuleDefinition -Analyzer $this -RuleDefinition ([RD1]::new([ID1]::new()))
+        # Add-RuleDefinition -Analyzer $this -RuleDefinition ([RD2]::new([ID2]::new()))
     }
 
     [void] Execute([object] $obj)
@@ -330,6 +338,7 @@ class ADMyAnalyzer : AnalyzerDefinition
         $this.Executed = $true
     }
 }
+
 ```
 ## Create a scenario
 To create a scenario using Plaster, execute the following:
@@ -353,7 +362,7 @@ This will generate the file, SDMyScenario.ps1, in the destination folder.
 ################################################################################
 # MIT License
 #
-# Copyright (c) 2019 Microsoft and Contributors
+# Copyright (c) 2020 Microsoft and Contributors
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -389,7 +398,7 @@ class SDMyScenario : ScenarioDefinition
         # ScenarioDescriptions.en-US.resx
         $this.Description  = $global:ScenarioDescriptions.GetString($this.Name)
 
-        $this.$ExecutionId = $ExecutionId
+        $this.ExecutionId  = $ExecutionId
         $this.Id           = [guid]::new('00000000-0000-0000-0000-000000000000')
         $this.Success      = $true
         $this.EventId      = Get-EventId($this.Name)
@@ -397,20 +406,20 @@ class SDMyScenario : ScenarioDefinition
         # Add the analyzer(s) that this scenario will use
         #
         # TODO
-        # $this.AddAnalyzerDefinition([AD1]::new())
-        # $this.AddAnalyzerDefinition([AD2]::new())
+        # Add-AnalyzerDefinition -Scenario $this -AnalyzerDefinition ([AD1]::new())
+        # Add-AnalyzerDefinition -Scenario $this -AnalyzerDefinition ([AD2]::new())
 
         # Do we need any parameters for this scenario?
         #
         # TODO
-        # $this.AddParameterDefinition([PD1]::new())
-        # $this.AddParameterDefinition([PD2]::new())
+        # Add-ParameterDefinition -Object $this -ParameterDefinition ([PD1]::new())
+        # Add-ParameterDefinition -Object $this -ParameterDefinition ([PD2]::new())
 
         # Add any keywords for this scenario (to be used in searching)
         #
         # TODO
-        # $this.AddKeyword('Keyword1')
-        # $this.AddKeyword('Keyword2')
+        # Add-Keyword -Scenario $this -Keyword 'Keyword1'
+        # Add-Keyword -Scenario $this -Keyword 'Keyword2'
 
         # What functional area(s) should this scenario appear?
         #
@@ -422,8 +431,8 @@ class SDMyScenario : ScenarioDefinition
         #   AreaDescriptions.en-US.resx
         #   AreaTitles.en-US.resx
         #
-        # $this.AddArea('Area1')
-        # $this.AddArea('Area2')
+        # Add-Area -Scenario $this -Area 'Area1'
+        # Add-Area -Scenario $this -Area 'Area2'
     }
 
     [void] Execute()
@@ -445,4 +454,5 @@ class SDMyScenario : ScenarioDefinition
         }
     }
 }
+
 ```
