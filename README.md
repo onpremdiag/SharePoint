@@ -1,7 +1,5 @@
 # Introduction 
 
-<img src="https://dev.azure.com/MWProductSupport/OnPrem%20Diag/_apis/build/status/SharePoint?branchName=master" />
-
 The **O**n **P**remise **D**iagnostic (**OPD**) for SharePoint is a collection of diagnostic scenarios, analyzers, rules, and insights for
 diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments.
 
