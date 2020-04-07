@@ -6,7 +6,7 @@ diagnosing common issues in the SharePoint 2016 and 2019 On Premise environments
 <table>
     <td> Supported Products </td>
     <td>
-      <img src="https://img.shields.io/static/v1?label=SharePoint&message=2016&color=%231777D6&style=plastic" /> <img src="https://img.shields.io/static/v1?label=SharePoint&message=2019&color=%231777D6&style=plastic" />
+      <img src="https://img.shields.io/static/v1?label=SharePoint&message=2016&color=%231777D6&style=plastic" /> <img src=https://img.shields.io/static/v1?label=SharePoint&message=2019&color=%231777D6&style=plastic" />
     </td>
   </tr>
   <tr>
